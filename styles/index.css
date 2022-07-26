@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: circe
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "circe";
+    src: url("../fonts/Circe-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "circe";
+    src: url("../fonts/Circe-Bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "circe";
+    src: url("../fonts/Circe-ExtraBold.woff") format('woff');
+    font-weight: 800;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1024px;
+    margin: 0px auto;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.phone {
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+.icons {
+    display: flex;
+    gap: 15px
+}
+
+.menu__item {
+    font-size: 16px;
+    font-family: circe;
+    color: black;
+}
+.menu__item:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-size: 18px;
+}
+
+.footer__menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.footer__menu__item {
+    color: #b17244;
+}
+
+.footer__menu__item:hover {
+    text-decoration: underline;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+section {
+    display: flex;
+    padding: 100px 20px 90px;
+}
+
+.article {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+h1.header-text {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h3.subheader-text {
+    color: #a09c7c;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+p.text {
+    font-size: 18px;
+    margin-right: 20px;
+    margin-right: 95px;
+}
+
+
+button.lookbook {
+    padding: 10px 20px 8px;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    background: black;
+    margin-top: 30px;
+}
+
